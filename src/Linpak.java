@@ -627,7 +627,7 @@ public class Linpak {
         //model.component("comp1").geom("geom1").feature("blk23").set("color", "3");
         model.component("comp1").geom("geom1").feature().remove("blk22");
         model.component("comp1").geom("geom1").feature().remove("blk23");
-        model.component("comp1").geom("geom1").run("fin");
+        model.component("comp1").geom("geom1").run("fin");// some
 
         return model;
     }
