@@ -636,7 +636,6 @@ public class Linpak {
     public static void main(String[] args) {
         Model model = run();
         run2(model);
-        System.out.printf("Good");
     }
 
 }
