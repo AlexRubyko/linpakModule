@@ -629,12 +629,14 @@ public class Linpak {
         model.component("comp1").geom("geom1").feature().remove("blk23");
         model.component("comp1").geom("geom1").run("fin");// some
 
+
         return model;
     }
 
     public static void main(String[] args) {
         Model model = run();
         run2(model);
+        System.out.printf("Good");
     }
 
 }
